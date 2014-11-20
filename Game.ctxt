@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Game()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Game.\n\ \n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ In\ the\ Game\ class,\ the\ act()\ method\ serves\ as\ the\ game\ loop\ for\ the\ \n\ overall\ game.\ (Keep\ in\ mind\ that\ all\ actors\ still\ have\ an\ act()\ method,\ which\n\ defines\ what\ each\ actor\ object\ specifically\ does\ during\ the\ game\ loop.)\n
+comment2.params=
+comment2.target=Status\ getGameStatus()
+comment2.text=\n\ Allows\ other\ objects\ to\ know\ the\ current\ state\ of\ the\ game\n
+comment3.params=
+comment3.target=Ball\ getBall()
+comment3.text=\n\ Allows\ other\ objects\ to\ "see"\ the\ ball\ (more\ accurately,\ allows\ other\ objects\n\ to\ have\ a\ reference\ to\ the\ ball\ object\ created\ here\ in\ the\ Game\ class)\n\ \n\ @return\ a\ copy\ of\ the\ reference\ to\ the\ game\ ball\ object\n
+comment4.params=
+comment4.target=Paddle\ getPaddle()
+comment4.text=\n\ Allows\ other\ objects\ to\ "see"\ the\ player's\ paddle\ \n\ \n\ @return\ a\ copy\ of\ the\ reference\ to\ the\ player's\ paddle\ object\n
+comment5.params=
+comment5.target=CPUPaddle\ getCPUPaddle()
+comment5.text=\n\ Allows\ other\ objects\ to\ "see"\ the\ CPU's\ paddle\ \n\ \n\ @return\ a\ copy\ of\ the\ reference\ to\ the\ CPU\ paddle\ object\n
+comment6.params=playerNumber
+comment6.target=void\ updateScore(int)
+comment6.text=\n\ Used\ to\ increment\ score\ for\ the\ indicated\ player\ \n\ \n\ @param\ playerNumber\ \ \ \ 1\ \=\ player,\ 2\ \=\ CPU\n
+comment7.params=
+comment7.target=void\ playLowBlip()
+comment7.text=\n\ Plays\ the\ low\ blip\ sound\ (when\ the\ ball\ makes\ contact\ with\ a\ top\ or\ bottom\ boundary)\n
+comment8.params=
+comment8.target=void\ playHighBlip()
+comment8.text=\n\ Plays\ the\ high\ blip\ sound\ (when\ the\ ball\ makes\ contact\ with\ a\ paddle)\n
+comment9.params=
+comment9.target=void\ playLongBeep()
+comment9.text=\n\ Plays\ the\ long\ beep\ sound\ (when\ the\ ball\ exits\ the\ screen\ and\ a\ point\ is\ scored)\n
+numComments=10
